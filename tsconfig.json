@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    /* ==========================================================
+     * 1. Môi trường biên dịch
+     * ========================================================== */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "lib": ["ES2020"],
+    "types": ["node"],
+
+    /* ==========================================================
+     * 2. Cấu trúc dự án
+     * ========================================================== */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* ==========================================================
+     * 3. Hỗ trợ module hiện đại và React (nếu có frontend trong src)
+     * ========================================================== */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+
+    /* ==========================================================
+     * 4. Kiểm tra type và hiệu năng
+     * ========================================================== */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* ==========================================================
+     * 5. Tùy chọn build thêm
+     * ========================================================== */
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": true,
+    "paths": {
+      "@frontend/*": ["./src/resource/src/*"],
+      "@backend/*": ["./src/*"]
+    },
+  },
+  "include": ["src/**/*.ts", "src/server/ssr.tsx", "src/resource"],
+  "exclude": ["src/resource", "node_modules", "dist"]
+}

@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "file": "assets/index-DwX9HZZv.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index-DZNv4myA.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff",
+      "assets/utm-avo-CqlpA4An.ttf",
+      "assets/utm-avobold-7NoFots2.ttf"
+    ]
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BeopsB42.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-mSm7cUeB.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "public/fronts/utm-avo.ttf": {
+    "file": "assets/utm-avo-CqlpA4An.ttf",
+    "src": "public/fronts/utm-avo.ttf"
+  },
+  "public/fronts/utm-avobold.ttf": {
+    "file": "assets/utm-avobold-7NoFots2.ttf",
+    "src": "public/fronts/utm-avobold.ttf"
+  }
+}
