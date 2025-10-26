@@ -24,6 +24,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     extra: {
         connectionLimit: 50,
     },
+    ssl: { "rejectUnauthorized": true }
 });
 async function connectDatabase(retryCount = 5, delayMs = 3000) {
     for (let attempt = 1; attempt <= retryCount; attempt++) {
